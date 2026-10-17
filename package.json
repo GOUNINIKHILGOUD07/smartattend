@@ -1,0 +1,22 @@
+{
+  "name": "smartattend",
+  "version": "1.0.0",
+  "description": "SmartAttend is a clean, responsive, modern web application for dynamic QR code classroom attendance, roster management, live check-in monitoring, and CSV export.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.59.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}
